@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="https://rails-assets.alx-apply.hbtn.io/assets/brand_alx/favicon-6430864f1d2df0cc3545ca8fa49fd1d5cd27b54f919e16e1103d7e53d268bae9.ico">
+    <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="behaviour.js"></script>
+    <title>Bekalu's ALX </title>
+</head>
+
+<body class="works_on_smartphone">
+    <header>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="p1u4vfVm"></script>
+        <div class="right">
+            <div class="fb-share-button" data-href="35.173.234.177/tool.html" data-layout="button" data-size="large"><a
+                    target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                    class="fb-xfbml-parse-ignore">Share</a></div>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
+                data-text="Check this awesome website" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <ul>
+
+            <li class="logo"><img src="https://img.icons8.com/dotty/80/26e07f/circled-b.png" /></li>
+            <li><a href="index.html"><img id="home"
+                        src="https://img.icons8.com/material-outlined/24/26e07f/home--v2.png" /></a>
+            </li>
+            <li><a class="tab-links" href="tweets.html">Awesome Tweets</a></li>
+            <li><a class="tab-links" href="hero.html">The Hero</a></li>
+            <li><a class="tab-links" href="tool.html">A simple tool</a></li>
+        </ul>
+
+    </header>
+    <main>
+        <article>
+
+            <div class="profile">
+
+                <div>
+                    <p>
+                    <h2>A simple weight and cost calculator for reinforcement bars</h2>
+                    </p>
+                </div>
+
+            </div>
+            <br class="invisible-line">
+            <hr>
+
+            <table class="tg" id="table" class=".container" class="rounded">
+                <thead>
+                    <tr>
+                        <th class="tg-ul38">Diameter</th>
+                        <th class="tg-ul38">Quantity</th>
+                        <th class="tg-ul38">Quantity</th>
+                        <th class="tg-ul38">Weight in Kgs</th>
+                        <th class="tg-ul38">Weight in tons</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tg-0lax">6mm</td>
+                        <td class="tg-0lax noExl"><input id="6mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan6"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw6"></label></td>
+                        <td class="tg-0lax" id="barton6"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">8mm</td>
+                        <td class="tg-0lax noExl"><input id="8mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan8"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw8"></label></td>
+                        <td class="tg-0lax" id="barton8"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">10mm</td>
+                        <td class="tg-0lax" class="noExl"><input id="10mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan10"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw10"></label></td>
+                        <td class="tg-0lax" id="barton10"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">12mm</td>
+                        <td class="tg-0lax" class="noExl"><input id="12mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan12"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw12"></label></td>
+                        <td class="tg-0lax" id="barton12"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">14mm</td>
+                        <td class="tg-0lax noExl"><input id="14mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan14"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw14"></label></td>
+                        <td class="tg-0lax" id="barton14"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">16mm</td>
+                        <td class="tg-0lax noExl"><input id="16mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan16"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw16"></label></td>
+                        <td class="tg-0lax" id="barton16"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">20mm</td>
+                        <td class="tg-0lax noExl"><input id="20mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan20"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw20"></label></td>
+                        <td class="tg-0lax" id="barton20"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">24mm</td>
+                        <td class="tg-0lax noExl"><input id="24mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan24"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw24"></label></td>
+                        <td class="tg-0lax" id="barton24"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">28mm</td>
+                        <td class="tg-0lax noExl"><input id="28mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan28"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw28"></label></td>
+                        <td class="tg-0lax" id="barton28"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">30mm</td>
+                        <td class="tg-0lax noExl"><input id="30mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan30"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw30"></label></td>
+                        <td class="tg-0lax" id="barton30"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">32mm</td>
+                        <td class="tg-0lax noExl"><input id="32mm" class="inputField" type="number"
+                                onchange="calculator()"></td>
+                        <td class="tg-0lax" id="quan32"></td>
+                        <td class="tg-0lax"><label class="wout" id="tw32"></label>
+                        <td class="tg-0lax" id="barton32"></td>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">Total</td>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax" id="kgs"></td>
+                        <td class="tg-0lax" id="tons"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="cost-calc">
+                <label class="labels">Price per Kg</label><input id="price" type="number" onchange="calculator()"><br>
+                <label class="labels">Total cost = </label> <span id="total-cost"> 0 </span><span> birr</span>
+            </div>
+
+
+
+        </article>
+        <!-- Disqus section -->
+        <aside>
+            <div id="disqus_thread"></div>
+            <script>
+
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://35-173-234-177.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+        </aside>
+    </main>
+    <footer>
+        <p class="footer-p">Made by Bekalu Tilahun for <a href="http://alx-apply.hbtn.io" class="footer-link">ALX</a>
+        </p>
+    </footer>
+</body>
+
+</html>
